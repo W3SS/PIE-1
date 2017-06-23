@@ -1,0 +1,89 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Main Menu</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding="true">
+  <ion-card>
+    <img src="../../assets/img/TutorialSplash.png" style="padding:5px"/>
+    <ion-card-content>
+      <ion-card-title>
+        Tutorial
+      </ion-card-title>
+      <p>
+        Learn about the Python language.
+      </p>
+    </ion-card-content>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="dark" icon-left
+                (click)="goToTutorialSelect()">
+          <ion-icon name="book"></ion-icon>
+          Get Started
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="dark" icon-left
+                (click)="notImpl()">
+          <ion-icon name="help"></ion-icon>
+          More Info
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <!--<img src="img/nin-live.png"/>-->
+    <ion-card-content>
+      <ion-card-title>
+        Reference
+      </ion-card-title>
+      <p>
+        Handy reference for useful Python topics, modules, and functions.
+      </p>
+    </ion-card-content>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="dark" icon-left
+                (click)="notImpl()">
+          <ion-icon name="list"></ion-icon>
+          Topics
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="dark" icon-left
+                (click)="notImpl()">
+          <ion-icon name="search"></ion-icon>
+          Search
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+  <ion-card>
+    <!--<img src="img/nin-live.png"/>-->
+    <ion-card-content>
+      <ion-card-title>
+        Quiz
+      </ion-card-title>
+      <p>
+        Test your knowledge of Python by answering these interview questions.
+      </p>
+    </ion-card-content>
+    <ion-row no-padding>
+      <ion-col>
+        <button ion-button clear small color="dark" icon-left
+                (click)="notImpl()">
+          <ion-icon name="alarm"></ion-icon>
+          Quiz Me!
+        </button>
+      </ion-col>
+      <ion-col text-right>
+        <button ion-button clear small color="dark" icon-left
+                (click)="notImpl()">
+          <ion-icon name="add"></ion-icon>
+          New Topic
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,16 @@
+import { NgModule } from '@angular/core';
+import { IonicPageModule } from 'ionic-angular';
+import { TutorialSelect } from './tutorial-select';
+
+@NgModule({
+  declarations: [
+    TutorialSelect,
+  ],
+  imports: [
+    IonicPageModule.forChild(TutorialSelect),
+  ],
+  exports: [
+    TutorialSelect
+  ]
+})
+export class TutorialSelectModule {}

@@ -1,0 +1,12 @@
+page-home {
+
+}
+
+
+.center {
+  height: auto;
+  width: auto;
+  margin: auto;
+  display: block;
+  vertical-align: middle;
+}
