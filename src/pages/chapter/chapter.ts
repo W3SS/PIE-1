@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 
 /**
@@ -15,9 +16,15 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
 export class Chapter {
 
   item;
-  
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  chapter;
+
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http: Http) {
       this.item = navParams.data.item;
+      this.loadPage();
+  }
+
+  loadPage() {
+    this.http.get('assets/chapters/test.ch').subscribe(response => this.chapter = response.text());
   }
 
   ionViewDidLoad() {

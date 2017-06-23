@@ -1,4 +1,5 @@
 node_modules/
+platform/
 temp/
 *.DS_Store
 *.log

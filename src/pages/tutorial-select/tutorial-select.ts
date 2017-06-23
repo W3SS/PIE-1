@@ -33,7 +33,7 @@ export class TutorialSelectPage {
   goToChapter(item) {
     this.navCtrl.push(Chapter, { item: item });
   }
-  
+
   ionViewDidLoad() {
     console.log('ionViewDidLoad TutorialSelect');
   }
