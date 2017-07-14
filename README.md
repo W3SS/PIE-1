@@ -2,4 +2,4 @@
 Python-Interactive-Ebook: Mobile application that teaches Python.
 
 ## NOTE
-This project has been moved to a different framework, and will be uploaded shortly.
+This project is being moved to a different framework, and will be uploaded shortly.
